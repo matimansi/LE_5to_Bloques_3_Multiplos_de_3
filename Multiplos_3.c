@@ -26,11 +26,8 @@ void Multiplos_3 (int limite, char impresion)
 		for (int i = 0; i <= limite; i++)
 		{
 			multiplos[i] = i * 3;
-			if (multiplos[i] > limite)
-			{
-		    	break;
-			}
-		printf("- %d\n", multiplos[i]);
+			if (multiplos[i] > limite) break;
+			printf("- %d\n", multiplos[i]);
 		}
 	}
 	else if ((impresion == 'c') || (impresion == 'C'))
@@ -39,11 +36,8 @@ void Multiplos_3 (int limite, char impresion)
 		for (int i = 0; i <= limite; i++)
 		{
 			multiplos[i] = i * 3;
-			if (multiplos[i] > limite)
-			{
-			    break;
-			}
-		printf("%d | ", multiplos[i]);
+			if (multiplos[i] > limite) break;
+			printf("%d | ", multiplos[i]);
 		}
 	}
 }
